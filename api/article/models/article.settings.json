@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "name": "Article",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Content": {
+      "type": "richtext",
+      "required": false
+    },
+    "PublishDate": {
+      "type": "date"
+    },
+    "categories": {
+      "via": "articles",
+      "collection": "category"
+    },
+    "tags": {
+      "via": "articles",
+      "collection": "tags"
+    }
+  }
+}

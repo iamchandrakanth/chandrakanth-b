@@ -11,6 +11,8 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "dotenv": "^9.0.2",
+    "find-config": "^1.0.0",
     "strapi": "3.6.2",
     "strapi-admin": "3.6.2",
     "strapi-connector-mongoose": "3.6.2",
