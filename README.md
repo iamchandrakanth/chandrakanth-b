@@ -1,3 +1,3 @@
-# Strapi application
+# Chandrakanth
 
-A quick description of your strapi application
+No description here
